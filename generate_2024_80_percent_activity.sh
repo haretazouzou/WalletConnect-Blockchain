@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CONFIGURATION
-REPO_NAME="fake-activity-2024-lite"
+REPO_NAME="WalletConnect-Blockchain"
 START_DATE="2024-01-01"
 END_DATE="2024-12-31"
 MAX_COMMITS_PER_DAY=4
@@ -44,5 +44,5 @@ while [ "$CURRENT_TS" -le "$END_TS" ]; do
 done
 
 echo "✅ All done! Now push to GitHub:"
-echo "   git remote add origin https://github.com/YOUR_USERNAME/$REPO_NAME.git"
+echo "   git remote add origin https://github.com/haretazouzou/$REPO_NAME.git"
 echo "   git push -u origin main"
